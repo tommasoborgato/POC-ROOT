@@ -26,6 +26,12 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.poc</groupId>
+            <artifactId>POC-CORE</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>

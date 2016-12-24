@@ -3,8 +3,34 @@
 ------------------------------
 Spring BOOT
 ------------------------------
+Using application.properties in POC-BOOT to customize URL.
+To run project:
 java -jar POC-BOOT\target\POC-BOOT-1.0-SNAPSHOT.jar
+Then reach url:
 http://localhost:8080/POC/rest/srv/obj
+
+------------------------------
+Spring + Tomcat
+------------------------------
+cd POC-WEB
+mvn package tomcat7:deploy
+mvn package tomcat7:redeploy
+
+-----------------------
+Angular 2 cli
+-----------------------
+https://github.com/angular/angular-cli
+npm config set proxy http://icttb0:xxx@tmgproxy.esselunga.net:8080
+npm config set https-proxy http://icttb0:xxx@tmgproxy.esselunga.net:8080
+npm install -g angular-cli@latest
+
+ng new ANGULAR2_POC
+cd ANGULAR2_POC
+ng serve
+http://localhost:4200/
+ng build --output-path "../POC-WEB/src/main/webapp/angular2" -prod --base-href angular2/
+npm install --save @angular/material
+npm install --save hammerjs
 
 ------------------------------
 Git

@@ -1,0 +1,10 @@
+<h1>
+  {{title}}
+</h1>
+<button md-raised-button (click)="clicked()">REST CALL</button>
+<BR>
+<p class="error" *ngIf="errorMessageRest">{{errorMessageRest}}</p>
+<BR>
+<div [hidden]="isHiddenProgressBar">
+<md-progress-bar mode="indeterminate"></md-progress-bar>
+</div>
