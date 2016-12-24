@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="POC-WEB:war">
+    <output-path>$PROJECT_DIR$/POC-WEB/target</output-path>
+    <root id="archive" name="POC-WEB-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="POC-WEB:war exploded" />
+    </root>
+  </artifact>
+</component>

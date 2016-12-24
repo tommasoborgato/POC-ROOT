@@ -1,0 +1,16 @@
+# POC-ROOT
+
+------------------------------
+Spring BOOT
+------------------------------
+java -jar POC-BOOT\target\POC-BOOT-1.0-SNAPSHOT.jar
+http://localhost:8080/POC/rest/srv/obj
+
+------------------------------
+Git
+------------------------------
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/tommasoborgato/POC-ROOT.git
+git push -u origin master

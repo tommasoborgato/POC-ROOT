@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/POC-BOOT/POC-BOOT.iml" filepath="$PROJECT_DIR$/POC-BOOT/POC-BOOT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POC-CORE/POC-CORE.iml" filepath="$PROJECT_DIR$/POC-CORE/POC-CORE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POC-ROOT.iml" filepath="$PROJECT_DIR$/POC-ROOT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POC-WEB/POC-WEB.iml" filepath="$PROJECT_DIR$/POC-WEB/POC-WEB.iml" />
+    </modules>
+  </component>
+</project>
